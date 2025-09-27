@@ -15,13 +15,13 @@
 # a=[1,2,3]
 # print(sum(a))
 
-# p
+
 
 #is / is not
-print(122 is 445)
+print(122 is 122)
 print(4558 is not 455588)
 
 # in /not in
 print("Debdip" in "Soumik")
-print("O" in "Soumik")
+print("u" in "Soumik")
 
