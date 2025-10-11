@@ -28,6 +28,7 @@ name = 'Soumik'
 age  = 12
 Inforation = f"My name is {name} and i am {age} years old" 
 print(Inforation)
+
 #03/10/2025
 # UNPACKING Caracters
 programing_language = "python"
@@ -46,6 +47,40 @@ print(first_three)
 #Another way
 last_three =  programing_language[-3:]
 print(last_three)
+#Reversing a python
+greeting = "Hello , World !"
+print(greeting[::-2])
+
+# 11/10/2025
+#PYTHON METHODS
+
+# Capitalize()
+dear = "thirty days of python"
+print(dear.capitalize() )
+ 
+ #count()
+dear = "thirty days of python"
+print(dear.count('h'))
+print(dear.count('y' , 7,14))
+print(dear.count('th'))
+
+#endwith()
+dear = 'thirty days of python'
+print(dear.endswith('on'))
+print(dear.endswith('tion'))
+
+#expandtabe()
+
+dear =('thirty\tdays\tof\tpython')
+#print(dear)
+# print(dear.expandtabs())
+
+print(dear.expandtabs(2))
+#find
+dear =('thirty days of python')
+print(dear.find('y'))
+#rfind
+print(dear.rfind('y'))
 
 
 
