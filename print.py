@@ -20,4 +20,28 @@ for s in looplist :
     print(s)
 bestfriend = ["Arko","dIPON","NOBO"]
 bestfriend.append("Abir")
-print(bestfriend)    
+print(bestfriend)  
+# 07/01/2026
+# soumik = ["Name","Section","Class"] 
+# soumik[3] ="Roll"
+# print(soumik)
+
+# pythoncastimg
+num = "12567839"
+print(int(num))
+print(type(int(num)))
+
+num1 = '51'
+print(float(num1))
+# sawpping
+s=41
+c=56
+s,c = c,s
+print(s,c)
+numbers = 44.535
+print(type(numbers))
+num2 = 45j
+print(type(num2))
+
+n = True
+print(type(n))
