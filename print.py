@@ -51,5 +51,10 @@ width = int(input("Enter the width of the rectangle: "))
 
 area = length * width
 
-print(f"The area of the rectangle is {area}")
+print("The area of the rectangle is {area}")
 
+s =int(input("Enter a number of workers :"))
+a =int(input("Enter total food available (kg) :"))
+w =int(input("Enter food consumed per worker per day (kg):"))
+Days = "Total Food/Number of workers * Food per worker per day"
+print("The food will last for {Days} days")             
